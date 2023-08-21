@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <th>product</th>
+        <th>image</th>
+        <th>Category</th>
+        <th>Stock</th>
+        <th>action</th>
+    </tr>
+    <% data.forEach((item) => { %>
+    <tr>
+        <td><%= item.name %></td>
+        <td><img src="<%= item.images %>" /></td>
+        <td><%= item.category.name %></td>
+        <td><%= item.stock %></td>
+        <td>
+            <a class="btn btn-info" href="/product/edit/<%=item._id%>">Edit</a>
+            <a class="btn btn-danger" href="/product/delete/<%=item._id%>">Delete</a>
+        </td>
+    </tr>
+    <% }) %>
+</table>

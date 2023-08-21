@@ -1,0 +1,24 @@
+<form action="" method="POST" enctype="multipart/form-data">
+    product name: <input type="text" name="name" id="" value="nike" /> <br /><br />
+    product image
+    <input
+        type="file"
+        name="images"
+        value="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    />
+    <br /><br />
+    product price<input type="text" name="price" id="" value="100" /><br /><br />
+    product description :<input type="text" name="description" id="description" value="this is good " /> <br /><br />
+
+    <label for="cars">Choose category:</label>
+
+    <select name="category">
+        <%category.forEach((item) => {%>
+        <option value="<%=item._id%>"><%=item.name%></option>
+        <%})%></select
+    ><br /><br />
+    in stock <input type="text" name="stock" id="stock" value="10" /><br /><br />
+
+    rating: <input type="text" name="rating" id="rating" value="4" /><br /><br />
+    <button type="submit" class="button-link">submit</button>
+</form>

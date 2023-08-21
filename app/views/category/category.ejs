@@ -1,0 +1,15 @@
+<h2>Table</h2>
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>status</th>
+    </tr>
+    <%data.forEach((items) => {%>
+    <tr>
+        <td><%=items.name%></td>
+        <td><%=items.status%></td>
+    </tr>
+    <%})%>
+</table>
+<a href="/category/create" class="button-link">create category</a>

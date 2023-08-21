@@ -1,0 +1,196 @@
+body,
+h1,
+h2,
+p,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff6600; /* Change to your preferred hover color */
+}
+/* Apply basic styling to the footer */
+/* Apply basic styling to the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Apply sticky behavior */
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Add a buffer element to push the footer to the bottom */
+
+.logout {
+    margin-left: auto;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none; /* Remove default underline */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Basic styling for the product container */
+.product {
+    width: 300px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Styling for the product image */
+.product img {
+    max-width: 100%;
+}
+
+/* Styling for the product name */
+.product-name {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Styling for the product price */
+.product-price {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #e74c3c; /* Red color for price */
+}
+
+/* Remove underline and change color for unvisited links */
+.card a {
+    text-decoration: none;
+    color: black; /* Change this color to your preferred color */
+}
+
+/* Change color for visited links */
+.card a:visited {
+    color: black; /* Change this color to your preferred color */
+}
+
+/* Styling for the rating container */
+.product-rating {
+    margin-top: 10px;
+    color: #f39c12; /* Orange color for stars */
+}
+
+/* Styling for the star icons */
+.star {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+.add-to-cart:hover {
+    background-color: #2980b9;
+}
+
+/* -------------------------- */
+
+.product-detail {
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.product-price {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+<% data.forEach((item) => {%>
+<a href="/product/create" class="button-link"></a>
+
+<div class="product">
+    <img src="<%=item.image%>" alt="Product 1" />
+    <h2 class="product-name"><%=item.name%></h2>
+    <p class="product-price">$<%=item.price%></p>
+    <div class="product-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9734;</span>
+    </div>
+</div>
+
+<%})%>

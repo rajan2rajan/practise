@@ -1,0 +1,12 @@
+<form action="" method="POST">
+    <input type="text" name="title" value="ghost" /> <br /><br />
+    <input type="text" name="description" id="description" value="this is detail view" /><br /><br />
+    <select name="category" id="category">
+        <%category.forEach((item) => {%>
+        <option value="<%=item._id%>"><%=item.name%></option>
+        <%})%></select
+    ><br /><br />
+    <input type="text" name="thumbnail" id="thumbnail" value="thumbnail" /><br /><br />
+    <input type="text" name="author" id="author" value="64d5c26fad5fcf12bb5a547a" /><br /><br />
+    <button type="submit">submit</button>
+</form>
